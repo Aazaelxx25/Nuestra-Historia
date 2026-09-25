@@ -115,7 +115,7 @@ botones.forEach(function (boton) {
 
         reproductor.src = cancion.archivo;
 
-        reproductor.load();
+    
 
 
         // Guardamos qué canción estamos reproduciendo
@@ -149,6 +149,7 @@ botones.forEach(function (boton) {
 
             }
         );
+        reproductor.load();
 
     });
 
