@@ -18,7 +18,7 @@ const botones = document.querySelectorAll(".boton-reproducir");
 const canciones = {
 
     caramelo: {
-        archivo: "musica/Caramelo.wav",
+        archivo: "Caramelo.mp3",
 
         // AQUÍ PONDREMOS EL FRAGMENTO
         inicio: 16,
@@ -27,7 +27,7 @@ const canciones = {
 
 
     nochePerfecta: {
-        archivo: "musica/Noche perfecta.wav",
+        archivo: "Noche perfecta.mp3",
 
         inicio: 70,
         final: 100
@@ -35,7 +35,7 @@ const canciones = {
 
 
     labios: {
-        archivo: "musica/Labios de Cereza.wav",
+        archivo: "Labios de Cereza.mp3",
 
         inicio: 33,
         final: 97
@@ -43,7 +43,7 @@ const canciones = {
 
 
     mundo: {
-        archivo: "musica/El mundo a tus pies.wav",
+        archivo: "El mundo a tus pies.mp3",
 
         inicio: 45,
         final: 92
@@ -51,7 +51,7 @@ const canciones = {
 
 
     princesa: {
-        archivo: "musica/Princesa.wav",
+        archivo: "Princesa.mp3",
 
         inicio: 105,
         final: 170
